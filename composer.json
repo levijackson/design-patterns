@@ -1,0 +1,20 @@
+{
+    "name": "levijackson/design-patterns",
+    "description": "A collection of design patterns implemented in PHP",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "levijackson\\Pattern\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "levijackson\\Pattern\\": "tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
