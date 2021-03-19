@@ -1,2 +1,1 @@
-The backstory here is that we want to get notified of issues. The service that handles alerting will subscribe to the appropriate notifier.
-
+The backstory here is that we want to get notified of issues. We have email and Slack available as options. The service using the notifier will choose which is the approiate delivery option. In some cases it may use multiple.
