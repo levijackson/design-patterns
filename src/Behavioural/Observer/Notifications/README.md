@@ -1,0 +1,1 @@
+The backstory here is that we want to get notified of issues. We have email and Slack available as options. The service using the notifier will choose which is the appropriate delivery option. In some cases it may use multiple.
