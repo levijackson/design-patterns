@@ -8,7 +8,7 @@ class LinkConfigBuilder {
 
     protected LinkConfig $link;
 
-    public function createLink(string $name, string $url): self{
+    public function createLink(string $name, string $url): self {
         $this->link = new LinkConfig();
         $this->link->setName($name);
         $this->link->setUrl($url);

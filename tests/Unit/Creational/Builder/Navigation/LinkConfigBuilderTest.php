@@ -8,8 +8,8 @@ use PHPUnit\Framework\TestCase;
 use levijackson\Pattern\Creational\Builder\Navigation\LinkConfig;
 use levijackson\Pattern\Creational\Builder\Navigation\LinkConfigBuilder;
 
-class LinkConfigBuilderTest extends TestCase {
-
+class LinkConfigBuilderTest extends TestCase
+{
     public function testBuildBareMinimum(): void {
         $builder = new LinkConfigBuilder();
         $linkName = 'Levi Jackson';
